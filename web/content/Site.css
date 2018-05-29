@@ -1,0 +1,294 @@
+﻿body {
+    padding-top: 50px;
+}
+
+/* Set padding to keep content from hitting the edges */
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.errorMsg {
+    font-size: 15pt;
+    color: Red;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-logo {
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #20ce20;
+    text-shadow: black 1px 1px 0, black 1px 1px 0, black -1px -1px 0, black 1px -1px 0, black -1px 1px 0, black -1px -1px 0;
+    margin-right: 10%;
+}
+
+.col-lg-4 h4 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 1rem;
+    color: #6b5546;
+}
+
+.col-lg-4 h5 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+    color: #6b5546;
+}
+
+.col-lg-4 p1 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 1rem;
+    color: #6b5546;
+}
+
+.disp-1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #20ce20;
+    text-shadow: black 1px 1px 0, black 1px 1px 0, black -1px -1px 0, black 1px -1px 0, black -1px 1px 0, black -1px -1px 0;
+}
+
+.disp-2 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #20ce20;
+    text-shadow: black 1px 1px 0, black 1px 1px 0, black -1px -1px 0, black 1px -1px 0, black -1px 1px 0, black -1px -1px 0;
+}
+.nav-link-new{
+    display: block;
+    padding: 1rem 1rem;
+}
+
+.carousel-item > img {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+.d-block {
+    display: block !important;
+}
+
+
+.icon-primary {
+    color: #FFF;
+    background: #ac3038;
+    border-color: #ac3038;
+}
+
+.icon-lg {
+    width: 136.5px;
+    height: 136.5px;
+    line-height: 132.5px;
+    font-size: 60px;
+    border-width: 2px;
+}
+
+.icon-lg-about {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 60px;
+    border-width: 2px;
+}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.MyTab {
+    text-indent: 1em;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+
+.text-center-2 {
+    text-align: center !important;
+    background: url("img/fon-log.jpg") no-repeat center top;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.text-center-3 {
+    text-align: center !important;
+    background: url("img/fon-sign.jpg") no-repeat center top;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+.form-signin h1{
+    color: #d3bd94;
+}
+
+.bg-primary-new {
+    background-color: rgb(39, 37, 37) !important;
+    color: white;
+}
+
+.bg-primary-movies {
+    background-color: #c4c4c4 !important;
+    color: black;
+    font-family: 'Righteous', sans-serif;
+    min-height: 500px;
+}
+
+.bg-primary-about {
+    background-color: darkgray !important;
+    color: black;
+}
+
+.icon-lg-about {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 60px;
+    border-width: 2px;
+}
+
+.row-mov p {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-family: 'Oswald';
+    color: rgb(75, 73, 73);
+    font-size: 30px;
+    max-width: 500px;
+    margin-top: -40%;
+    margin-bottom: 0;
+    color: black;
+}
+
+.row-mov img {
+    margin-left: 50%;
+}
+.round {
+    display: inline-block;
+    text-align: center;
+    border-radius: 30%;
+    border-style: solid;
+    
+}
+
+.col-lg-4 h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.contacts-info {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    left: 10%;
+}
+
+    .contacts-info h1 {
+        color: wheat;
+        font-family: 'Righteous', sans-serif;
+        font-size: 45px;
+        font-weight: 150;
+    }
+
+    .contacts-info p {
+        color: rgb(173, 55, 95);
+        font-family: 'Righteous', sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .contacts-info p1 {
+        font-family: 'Righteous', sans-serif;
+        font-size: 20px;
+        font-weight: 80;
+        color: black;
+        background: rgb(255, 255, 255);
+        border-color: #ac3038;
+    }
+
+.contacts-lg {
+    margin-top: 25px;
+    width: 350px;
+    height: 110px;
+    font-size: 60px;
+    border-width: 2px;
+}
+
+.contacts {
+    display: inline-block;
+    text-align: center;
+    border-style: solid;
+}
+
+.mybutton {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #20ce20;
+    border-color: #15bc04;
+    color: wheat;
+    font-family: 'Righteous', sans-serif;
+}
+.mybutton-2{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #20ce20;
+    border-color: #15bc04;
+    color: wheat;
+    font-family: 'Righteous', sans-serif;
+}
+
+.contacts-col {
+    font-family: 'Righteous', sans-serif;
+    width: 500px;
+    padding-top: 20px;
+}
+
+.contacts-msg {
+    font-family: 'Righteous', sans-serif;
+    width: 835px;
+    padding-top: 20px;
+    display: inline-flex;
+}
+
